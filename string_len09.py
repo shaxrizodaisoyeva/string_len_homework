@@ -9,8 +9,9 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    a = str(num1+num2)
+    a = int(num1)+int(num2)
+    a =str(a)
     return a 
-num1 =2
-num2 = 5
+num1 ="2"
+num2 = "5"
 print(main(num1,num2))
