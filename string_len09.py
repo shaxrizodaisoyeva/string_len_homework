@@ -9,7 +9,7 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    a = str(num1+num2)
+    a = str(num1)+str(num2)
     return a 
 num1 =2
 num2 = 5
