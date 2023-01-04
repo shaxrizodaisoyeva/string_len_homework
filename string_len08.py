@@ -8,4 +8,11 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a = len(s)
+    if a%2==0:
+        x= s[(a//2)-1]+s[(a//2)]
+    else:
+        x= s[(a//2)]
+    return x
+s = "aaaabraaaa"
+print(main(s))
