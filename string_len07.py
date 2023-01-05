@@ -15,12 +15,12 @@ def main(s1,s2,s3):
         x += s2
     elif len(s2)%2==1:
         x += ", "+s2
-    if len(s3)%2==1 and len(s3)%2==0:
+    if len(s3)%2==1 and len(s1)%2==0 and len(s2)%2==0:
         x += s3
     elif len(s3)%2==1:
-        x += ", "+s3
+        x +=", "+s3
     return x + "]"
-s1 = "aboci"
-s2 = "efplplk"
+s1 = "aboi"
+s2 = "efplplok"
 s3 = "azilz"
 print(main(s1,s2,s3))
